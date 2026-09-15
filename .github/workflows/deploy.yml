@@ -25,10 +25,11 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
+          parallel: 1
           protocol: ftp
           local-dir: ./
-          server-dir: ./
-          state-name: partynjoy-deploy-v2
+          server-dir: /public_html/
+          state-name: partynjoy-deploy-v3
           log-level: standard
           exclude: |
             **/.git*
