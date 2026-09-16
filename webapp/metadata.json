@@ -1,0 +1,6 @@
+{
+  "name": "개인회생 안심상담 디자인 시스템 & 웹사이트",
+  "description": "그누보드 연동 및 Cursor 개발을 고려한 개인회생·파산 전문 안심 법률상담 반응형 웹 디자인 시스템 및 프로토타입",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
